@@ -65,6 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 .container {
+	max-width: 1000px;
 	margin: 0 auto;
 }
 
@@ -131,6 +132,7 @@ header .big-stuff img {
 }
 section {
 	padding-top: 50px;
+	padding-bottom: 50px;
 	border-top: black solid 2px;
 	border-bottom: black solid 2px;
 }
@@ -153,9 +155,7 @@ section .above-pic .about {
 }
 
 section .below-pic {
-	display: inline;
 	margin-top: 30px;
-	border: red solid;
 	width: 100%;
 
 }
@@ -179,17 +179,20 @@ section .below-pic .vision {
 }
 
 
-footer {
+footer h3{
 	margin-top: 20px;
-	line-height: 2;
-	text-decoration: none;
-	color: black;
+	font-size: 15px;
 }
 
 footer address{
 	line-height:1;
 }
 
+footer address p {
+	line-height:2;
+	text-decoration: none;
+	color: black;
+}
 h6 {
 	font-size: 12px;
 	text-align:center;
