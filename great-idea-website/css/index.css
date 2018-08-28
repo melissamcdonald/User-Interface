@@ -64,3 +64,133 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	margin: 0 auto;
+}
+
+header .nav-logo {
+	display: inline-box;
+	width: 100%;
+	vertical-align: top;
+	position: absolute;
+	top: 5px;
+	padding-bottom: 20px;
+
+}
+
+header .nav-logo a {
+	text-decoration: none;
+	color: darkgrey;
+	font-size: 15px;
+	margin: 0 7px;
+}
+
+header .nav-logo .logo {
+	display: inline;
+	position: absolute;
+	height: 25px;
+	width: auto;
+	top: 0px;
+	right: 5px;
+}
+
+header .big-stuff {
+	display: inline-block;
+	padding-top: 100px;
+	font-size: 80px;
+	position: relative;
+	width: 100%;
+	height: 400px;
+	margin-bottom: 40px;
+}
+
+header .big-stuff .main {
+	position: absolute;
+	left: 45px;
+	bottom: 50px;
+	text-align: center;
+}
+
+header .big-stuff img {
+	padding-top: 0px;
+	position: absolute;
+	right: 60px;
+	bottom: 0px;
+}
+
+.button {
+	font-size: 25px;
+	color: black;
+	text-decoration: none;
+	border: solid black 2px;
+	position: absolute;
+	left: 120px;
+	bottom: 10px;
+	padding: 10px 30px;
+
+}
+section {
+	padding-top: 50px;
+	border-top: black solid 2px;
+	border-bottom: black solid 2px;
+}
+
+section .above-pic {
+	display: inline;
+
+}
+
+section .above-pic .features {
+	display: inline-block;
+	width: 40%;
+	margin: 10px 20px;
+}
+
+section .above-pic .about {
+	display: inline-block;
+	width: 40%;
+	margin: 10px 20px 30px 20px;
+}
+
+section .below-pic {
+	display: inline;
+	margin-top: 30px;
+	border: red solid;
+	width: 100%;
+
+}
+
+section .below-pic .services {
+	display: inline-block;
+	width: 25%;
+	margin: 10px 20px;
+}
+
+section .below-pic .product {
+	display: inline-block;
+	width: 25%;
+	margin: 10px 20px;
+}
+
+section .below-pic .vision {
+	display: inline-block;
+	width: 25%;
+	margin: 10px 20px;
+}
+
+
+footer {
+	margin-top: 20px;
+	line-height: 2;
+	text-decoration: none;
+	color: black;
+}
+
+footer address{
+	line-height:1;
+}
+
+h6 {
+	font-size: 12px;
+	text-align:center;
+}
